@@ -1,0 +1,7 @@
+package com.awesomeapp.postcontact
+
+data class Model60_111(
+    val id: String = "Model60_111-1774207490696",
+    val name: String = "Model for Model60_111",
+    val description: String = "Description for Model60_111"
+)
