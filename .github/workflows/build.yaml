@@ -19,7 +19,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh run download <run_id> \
+          gh run download 23719062741 \
             --repo cdsap/im-not-ok-metrics \
             --name custom-jdk-linux-9ad2e63f1763 \
             --dir "$GITHUB_WORKSPACE/custom-jdk"
